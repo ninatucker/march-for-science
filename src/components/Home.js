@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../assets/css/fonts.css';
 import '../assets/css/App.css';
 import styles from '../components/Home.css';
 import ModuleOne from './ModuleOne/ModuleOne';

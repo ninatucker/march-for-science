@@ -10,7 +10,7 @@ class Hero extends Component {
                         <p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
                     </header>
                     <ul className="actions vertical">
-                        <li><a href="#" className="button fit special">Activate</a></li>
+                        <li><a href="#" className="button fit special">Something!</a></li>
                         <li><a href="#" className="button fit">Learn More</a></li>
                     </ul>
                 </div>
