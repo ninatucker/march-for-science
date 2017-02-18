@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import '../assets/css/fonts.css';
-import logo from '../assets/img/logo.jpg';
 import '../assets/css/App.css';
-import styles from './Home.css';
+import styles from '../components/Home.css';
+import ModuleOne from './ModuleOne/ModuleOne';
+import Hero from './Hero/Hero';
 
 class Home extends Component {
     render() {
         return (
           <div id="page-wrapper">
 
-              <header id="header" className="alt">
+              <header id="header" className="alt" style={styles.header} >
                 <h1><a href="index.html">March For Science Michigan</a></h1>
                 <nav id="nav">
                   <ul>
@@ -29,32 +30,8 @@ class Home extends Component {
                 </nav>
               </header>
 
-              <section id="banner">
-                <div className="inner">
-                  <h2>March For Science Michigan</h2>
-                  <p>Take a stand for science</p>
-                  <ul className="actions">
-                    <li><a href="#" className="button special">Activate</a></li>
-                  </ul>
-                </div>
-                <a href="#one" className="more scrolly">Learn More</a>
-              </section>
-
-              <section id="one" className="wrapper style1 special">
-                <div className="inner">
-                  <header className="major">
-                    <h2>Arcu aliquet vel lobortis ata nisl<br />
-                    eget augue amet aliquet nisl cep donec</h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-                    fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-                  </header>
-                  <ul className="icons major">
-                    <li><span className="icon fa-diamond major style1"><span className="label">Lorem</span></span></li>
-                    <li><span className="icon fa-heart-o major style2"><span className="label">Ipsum</span></span></li>
-                    <li><span className="icon fa-code major style3"><span className="label">Dolor</span></span></li>
-                  </ul>
-                </div>
-              </section>
+              <Hero />
+              <ModuleOne />
 
               <section id="two" className="wrapper alt style2">
                 <section className="spotlight">
