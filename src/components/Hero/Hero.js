@@ -4,6 +4,8 @@ import '../../assets/css/App.css';
 import logo from '../../assets/img/logo-clear.svg';
 import styles from './Hero.css';
 
+import Social from '../Social/Social';
+
 class Hero extends Component {
     render() {
         return (
@@ -15,6 +17,7 @@ class Hero extends Component {
                     <ul className="actions">
                         <li><a href="#" className="button special">Call to Action!</a></li>
                     </ul>
+                    <Social />
                 </div>
                 <a href="#one" className="more scrolly">Learn More</a>
             </section>
