@@ -1,3 +1,13 @@
+# March For Science Michigan
+
+deploy with `$ npm run deploy` and it will push up to the github page
+
+
+
+
+# Create React App Docs:
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
