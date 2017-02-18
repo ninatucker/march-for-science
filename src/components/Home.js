@@ -3,59 +3,19 @@ import '../assets/css/fonts.css';
 import '../assets/css/App.css';
 import styles from '../components/Home.css';
 import ModuleOne from './ModuleOne/ModuleOne';
+import ModuleTwo from './ModuleTwo/ModuleTwo';
 import Hero from './Hero/Hero';
+import HamburgerMenu from './HamburgerMenu/HamburgerMenu';
 
 class Home extends Component {
     render() {
         return (
           <div id="page-wrapper">
-
-              <header id="header" className="alt" style={styles.header} >
-                <h1><a href="index.html">March For Science Michigan</a></h1>
-                <nav id="nav">
-                  <ul>
-                    <li className="special">
-                      <a href="#menu" className="menuToggle"><span>Menu</span></a>
-                      <div id="menu">
-                        <ul>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="generic.html">Generic</a></li>
-                          <li><a href="elements.html">Elements</a></li>
-                          <li><a href="#">Sign Up</a></li>
-                          <li><a href="#">Log In</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </nav>
-              </header>
-
+              <HamburgerMenu />
               <Hero />
               <ModuleOne />
+              <ModuleTwo />
 
-              <section id="two" className="wrapper alt style2">
-                <section className="spotlight">
-                  <div className="image"><img src="images/pic01.jpg" alt="" /></div><div className="content">
-                    <h2>Magna primis lobortis<br />
-                    sed ullamcorper</h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-                  </div>
-                </section>
-                <section className="spotlight">
-                  <div className="image"><img src="images/pic02.jpg" alt="" /></div><div className="content">
-                    <h2>Tortor dolore feugiat<br />
-                    elementum magna</h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-                  </div>
-                </section>
-                <section className="spotlight">
-                  <div className="image"><img src="images/pic03.jpg" alt="" /></div><div className="content">
-                    <h2>Augue eleifend aliquet<br />
-                    sed condimentum</h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-                  </div>
-                </section>
-              </section>
 
               <section id="three" className="wrapper style3 special">
                 <div className="inner">

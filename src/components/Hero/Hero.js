@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import '../../assets/css/fonts.css';
-import '../../assets/css/App.css';
 import logo from '../../assets/img/logo-clear.svg';
 import styles from './Hero.css';
 
@@ -10,7 +8,7 @@ class Hero extends Component {
     render() {
         return (
             <section id="banner">
-                <div className="inner">
+                <div className="inner" style={styles.inner}>
                     <h2>March For Science Michigan</h2>
                     <p>Take a stand for science</p>
                     <img src={logo} style={styles.logo} />
