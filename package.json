@@ -1,5 +1,6 @@
 {
   "name": "michiganScience",
+  "homepage": "https://shonin.github.io/march-for-science",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
