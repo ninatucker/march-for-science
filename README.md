@@ -2,8 +2,7 @@
 
 deploy with `$ npm run deploy` and it will push up to the github page
 
-
-hello world
+run locally with `$ npm start`
 
 # Create React App Docs:
 
