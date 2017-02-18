@@ -7,13 +7,12 @@ export default {
     },
 
     logo: {
-        height: '100px'
+        marginBottom: '50px',
+        height: '200px'
     },
 
     header: {
-        backgroundColor: '#00507F',
-        height: '100px',
-        padding: '20px',
+        textAlign: 'center',
         color: 'white',
         fontFamily: 'Raleway, sans-serif'
     },
