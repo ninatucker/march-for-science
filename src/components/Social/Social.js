@@ -13,7 +13,7 @@ class Social extends Component {
         return (
             <ul style={styles.list}>
                 <li style={styles.listItem}>
-                    <a style={styles.listLink} href="https://www.facebook.com/events/985534291591681/"><FaFacebook /></a>
+                    <a style={styles.listLink} href={this.props.facebookEvent}><FaFacebook /></a>
                 </li>
                 <li style={styles.listItem}>
                     <a style={styles.listLink} href="#"><FaGlobe /></a>

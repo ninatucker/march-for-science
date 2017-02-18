@@ -15,7 +15,7 @@ class Hero extends Component {
                     <ul className="actions">
                         <li><a href="#" className="button special">Call to Action!</a></li>
                     </ul>
-                    <Social />
+                    <Social facebookEvent={this.props.city.facebookEvent} />
                 </div>
                 <a href="#one" className="more scrolly">Learn More</a>
             </section>

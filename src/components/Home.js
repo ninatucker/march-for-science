@@ -19,7 +19,7 @@ class Home extends Component {
               <ModuleTwo city={this.props.city} />
               <ModuleThree />
               <ModuleFour />
-              <Footer />
+              <Footer city={this.props.city} />
           </div>
         );
     }
