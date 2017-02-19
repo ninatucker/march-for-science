@@ -14,12 +14,12 @@ class Home extends Component {
         return (
           <div id="page-wrapper">
               <HamburgerMenu />
-              <Hero />
-              <ModuleOne />
-              <ModuleTwo />
+              <Hero city={this.props.city} />
+              <ModuleOne city={this.props.city} />
+              <ModuleTwo city={this.props.city} />
               <ModuleThree />
               <ModuleFour />
-              <Footer />
+              <Footer city={this.props.city} />
           </div>
         );
     }

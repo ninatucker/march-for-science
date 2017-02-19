@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Home from './components/Home';
+import City from './City';
 
 class App extends Component {
   render() {
-    return <Home />;
+    return <Home city={City} />;
   }
 }
 
