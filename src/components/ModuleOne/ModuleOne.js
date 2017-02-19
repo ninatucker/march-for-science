@@ -9,8 +9,9 @@ class ModuleOne extends Component {
             <section id="one" style={styles.header}>
                 <div style={styles.inner}>
                     <header className="major">
-                        <h2>April 22, 2017</h2>
-                        <p>Join us in city and march to take a stand for science</p>
+                        <h2>{this.props.city.date}</h2>
+                        <p>Join us in {this.props.city.name} and march to take a stand for science</p>
+                        <p>{this.props.city.time} at {this.props.city.location}</p>
                     </header>
                 </div>
             </section>
