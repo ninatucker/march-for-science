@@ -6,7 +6,8 @@ import styles from './Social.css';
 import FaFacebook from 'react-icons/lib/fa/facebook';
 import FaGlobe from 'react-icons/lib/fa/globe';
 import FaMapMarker from 'react-icons/lib/fa/map-marker';
-import FaGitHub from 'react-icons/lib/fa/github'
+import FaGitHub from 'react-icons/lib/fa/github';
+
 
 class Social extends Component {
     render() {
