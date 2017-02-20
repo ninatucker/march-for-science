@@ -9,7 +9,7 @@ class Hero extends Component {
         return (
             <section id="banner">
                 <div className="inner" style={styles.inner}>
-                    <h2>March For Science {this.props.city.name}</h2>
+                    <h2>March For Science <span style={{display: 'block'}}>{this.props.city.name}</span></h2>
                     <p>Take a stand for science</p>
                     <img src={logo} style={styles.logo} />
                     <ul className="actions">
