@@ -7,7 +7,8 @@ export default [
         address: "110 N Capitol Ave, Lansing, Michigan 48933",
         facebookEvent: "https://www.facebook.com/events/985534291591681/",
         hashtag: "#MarchForScienceLansing",
-        url: "lansing"
+        url: "lansing",
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.5725890995295!2d-84.55606208469565!3d42.7339364194009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8822c1d7f9080847%3A0x50dbccd326435ec7!2s110+N+Capitol+Ave%2C+Lansing%2C+MI+48933!5e0!3m2!1sen!2sus!4v1487619752713"
     },
     {
         name: "Detroit",

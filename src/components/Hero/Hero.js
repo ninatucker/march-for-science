@@ -18,8 +18,6 @@ class Hero extends Component {
                     <h3>{this.props.city.hashtag}</h3>
                     <Social facebookEvent={this.props.city.facebookEvent} />
                 </div>
-
-                <a href="#one" className="more scrolly">Learn More</a>
             </section>
         );
     }
