@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../assets/img/logo-clear.svg';
+import logo from '../../assets/img/logo-mi.png';
 import styles from './Hero.css';
 
 import Social from '../Social/Social';
@@ -15,8 +15,10 @@ class Hero extends Component {
                     <ul className="actions">
                         <li><a href="#" className="button special">Call to Action!</a></li>
                     </ul>
+                    <h3>{this.props.city.hashtag}</h3>
                     <Social facebookEvent={this.props.city.facebookEvent} />
                 </div>
+
                 <a href="#one" className="more scrolly">Learn More</a>
             </section>
         );
