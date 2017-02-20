@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './HamburgerMenu.css';
 import Cities from '../../Cities';
 
-var Menu = require('react-burger-menu').slide;
+let Menu = require('react-burger-menu').slide;
 
 
-var CitiesList = React.createClass({
+let CitiesList = React.createClass({
     render: function() {
-        var citiesList = this.props.cities.map(function(city) {
+        let citiesList = this.props.cities.map(function(city) {
             return <a style={{display: 'block'}} className="menu-item" href={city.url} >{city.name}</a>;
         });
         return <span>{citiesList}</span>;
