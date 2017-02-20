@@ -18,7 +18,7 @@ class Home extends Component {
               <ModuleOne city={this.props.city} />
               <ModuleTwo city={this.props.city} />
               <ModuleThree />
-              <ModuleFour />
+              <ModuleFour city={this.props.city} />
               <Footer city={this.props.city} />
           </div>
         );

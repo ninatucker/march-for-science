@@ -11,10 +11,14 @@ class ModuleOne extends Component {
             <section id="one" style={styles.header}>
                 <div style={styles.inner}>
                     <header className="major">
-                        <h2>{this.props.city.date}</h2>
+                        <h2>
+                            {this.props.city.date} <br />
+                            <span style={{display: 'block'}}>{this.props.city.time}</span>
+                        </h2>
                         <p>Join us in {this.props.city.name} and march to take a stand for science</p>
-                        <p>{this.props.city.time} at {this.props.city.location}</p>
-                        <Map map={this.props.city.map} />
+                        <h4>Location:</h4>
+                        <p>{this.props.city.location}</p>
+                        <Map map={this.props.city.mapIframe} />
                     </header>
                 </div>
             </section>

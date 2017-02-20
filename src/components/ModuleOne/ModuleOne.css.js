@@ -1,6 +1,7 @@
 export default {
     header: {
-        backgroundColor: '#32BDBC'
+        backgroundColor: '#32BDBC',
+        paddingBottom: '60px'
     },
     inner: {
         textAlign: 'center',
