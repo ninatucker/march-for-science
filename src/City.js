@@ -1,7 +1,6 @@
-export default {
-    name: "Lansing",
-    date: "April 22, 2017",
-    time: "2pm",
-    location: "a location TBD",
-    facebookEvent: "https://www.facebook.com/events/985534291591681/"
-}
+import Cities from './Cities';
+
+// whatever you export from this module will be the
+// city that the app references
+
+export default Cities.lansing;
