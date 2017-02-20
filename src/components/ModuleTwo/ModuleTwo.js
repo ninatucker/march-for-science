@@ -3,6 +3,7 @@ import styles from './ModuleTwo.css';
 
 import FaFlask from 'react-icons/lib/fa/flask';
 import FaBinoculars from 'react-icons/lib/fa/binoculars';
+import FaUser from 'react-icons/lib/fa/user'; 
 
 class Hero extends Component {
     render() {
@@ -29,12 +30,11 @@ class Hero extends Component {
                 </section>
                 <section className="spotlight">
                     <div className="image" style={styles.iconContainer}>
-                        <FaFlask style={styles.icon} />
+                        <FaUser style={styles.icon} />
                     </div>
                     <div className="content">
-                    <h2>Augue eleifend aliquet<br />
-                        sed condimentum</h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+                    <h2>WHO ARE WE?</h2>
+                    <p>We are scientists and science enthusiasts. We come from all races, all religions, all gender identities, all sexual orientations, all abilities, all socioeconomic backgrounds, all political perspectives, and all nationalities. Our diversity is our greatest strength: a wealth of opinions, perspectives, and ideas is critical for the scientific process. What unites us is a love of science, and an insatiable curiosity. We all recognize that science is everywhere and affects everyone.</p>
                 </div>
                 </section>
             </section>
