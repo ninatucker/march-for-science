@@ -8,7 +8,7 @@ class Footer extends Component {
     render() {
         return (
             <footer id="footer">
-                <Social facebookEvent={this.props.city.facebookEvent} />
+                <Social city={this.props.city} />
             </footer>
         );
     }

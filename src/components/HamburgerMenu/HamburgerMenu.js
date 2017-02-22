@@ -19,10 +19,14 @@ let HamburgerMenu = React.createClass({
     render: function() {
         return (
             <Menu styles={styles} right>
+                <a className="menu-item" target="_blank" href="#" >Donate</a>
+                <a className="menu-item" target="_blank" href="https://goo.gl/forms/K2PgnxJTznz06gOq2">Volunteer</a>
+                <a className="menu-item" target="_blank" href="#" >Store</a>
+                <a className="menu-item" target="_blank" href="#" >Ride Share</a>
+                <h3 style={{paddingTop: '20px'}}>Michigan Marches:</h3>
                 <CitiesList cities={Cities} />
-                <a id="home" className="menu-item" href="/">Home</a>
-                <a id="about" className="menu-item" href="/about">About</a>
-                <a id="contact" className="menu-item" href="/contact">Contact</a>
+                <h3 style={{paddingTop: '20px'}}>Global Marches:</h3>
+                <a className="menu-item" target="_blank" href="#" >Global Website</a>
             </Menu>
         );
     }

@@ -13,13 +13,11 @@ class Hero extends Component {
                     <p>Take a stand for science</p>
                     <img src={logo} style={styles.logo} />
                     <ul className="actions">
-                        <li><a href="#" className="button special">Call to Action!</a></li>
+                        <li><a href="https://goo.gl/forms/K2PgnxJTznz06gOq2" target="_blank" className="button special">Get Involved!</a></li>
                     </ul>
                     <h3>{this.props.city.hashtag}</h3>
-                    <Social facebookEvent={this.props.city.facebookEvent} />
+                    <Social city={this.props.city} />
                 </div>
-
-                <a href="#one" className="more scrolly">Learn More</a>
             </section>
         );
     }
