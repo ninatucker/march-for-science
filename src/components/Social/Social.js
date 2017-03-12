@@ -52,7 +52,7 @@ class Social extends Component {
                     <a style={styles.listLink} target="_blank" href={this.props.city.facebookEvent}><FaFacebook /></a>
                 </li>
                 <li style={styles.listItem}>
-                    <a style={styles.listLink} target="_blank" href="#"><FaGlobe /></a>
+                    <a style={styles.listLink} target="_blank" href="https://www.marchforscience.com/"><FaGlobe /></a>
                 </li>
                 <li style={styles.listItem}>
                     <a style={styles.listLink} target="_blank" href="#"><FaMapMarker /></a>

@@ -3,7 +3,7 @@ import '../assets/css/App.css';
 import styles from '../components/Home.css';
 import ModuleOne from './ModuleOne/ModuleOne';
 import ModuleTwo from './ModuleTwo/ModuleTwo';
-import ModuleThree from './ModuleThree/ModuleThree';
+import Blurb from './ModuleThree/ModuleThree';
 import ModuleFour from './ModuleFour/ModuleFour';
 import Hero from './Hero/Hero';
 import HamburgerMenu from './HamburgerMenu/HamburgerMenu';
@@ -17,7 +17,7 @@ class Home extends Component {
               <Hero city={this.props.city} />
               <ModuleOne city={this.props.city} />
               <ModuleTwo city={this.props.city} />
-              <ModuleThree />
+              <Blurb city={this.props.city} />
               <ModuleFour city={this.props.city} />
               <Footer city={this.props.city} />
           </div>
