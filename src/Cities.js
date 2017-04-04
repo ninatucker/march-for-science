@@ -7,7 +7,7 @@ export default [
         name: "Ann Arbor",
         logo: defaultLogo,
         date: "April 22, 2017",
-        time: "3PM - 6PM",
+        time: "Noon - 2pm",
         location: "The Diag",
         address: "",
         facebookEvent: "https://www.facebook.com/events/1237144609734310/",
