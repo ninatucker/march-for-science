@@ -18,6 +18,7 @@ class ModuleOne extends Component {
                         <p>Join us in {this.props.city.name} and march to take a stand for science</p>
                         <h4>Location:</h4>
                         <p>{this.props.city.location}</p>
+                        <p>{this.props.city.address}</p>
                         <Map map={this.props.city.mapIframe} />
                     </header>
                 </div>

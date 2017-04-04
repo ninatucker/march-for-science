@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../../assets/img/logo-mi.png';
 import styles from './Hero.css';
 
 import Social from '../Social/Social';
@@ -11,7 +10,7 @@ class Hero extends Component {
                 <div className="inner" style={styles.inner}>
                     <h2>March For Science <span style={{display: 'block'}}>{this.props.city.name}</span></h2>
                     <p>Take a stand for science</p>
-                    <img src={logo} style={styles.logo} />
+                    <img src={this.props.city.logo} style={styles.logo} />
                     <ul className="actions">
                         <li><a href="https://goo.gl/forms/K2PgnxJTznz06gOq2" target="_blank" className="button special">Get Involved!</a></li>
                     </ul>
